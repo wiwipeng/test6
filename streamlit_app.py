@@ -108,11 +108,11 @@ background_art = st.selectbox(
 
 # Upload a custom background image for the wallpaper
 custom_bg_img = st.file_uploader(
-    "You can upload a custom background image to replace the default black one with 640x1280 dimensions (otherwise it is resized)", 
+    "您可以上傳自定義背景圖片以替換 640x1280 尺寸的默認黑色圖片", 
     type=["png", "jpg"]
 )
 DIMENSIONS = (1920, 1080)
-Mobile =st.checkbox('switch to mobile format (default Desktop format 1920 * 1080)')
+Mobile =st.checkbox('更換背景大小(default Desktop format 1920 * 1080)')
 if Mobile:
     DIMENSIONS = (640, 1280)
 
@@ -127,7 +127,7 @@ if custom_bg_img != None:
 # Change the operator theme color
 # Using the beta version until the generally available version is fixed in Streamlit 
 #custom_op_color = st.color_picker("Feel free to change the operator theme color", op_default_color)
-custom_op_color = st.beta_color_picker("Feel free to change the operator theme color", op_default_color)
+custom_op_color = st.beta_color_picker("選擇陰影顏色", op_default_color)
 
 # Put together relevant operator information in a single dictionary
 operator_info = {
