@@ -11,7 +11,7 @@ st.set_option("deprecation.showfileUploaderEncoding", False)
 st.markdown("""
 # Arknights Phone Wallpaper Generator
 
-Create phone wallpapers for your favourite Arknights operators!
+為你最喜歡的[明日方舟](https://zh.wikipedia.org/wiki/%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F)角色創造一個桌布!
 
 If you're interested in the code, you can find it on my GitHub repository [here](https://github.com/Ze1598/arknights-wallpaper-generator).
 
