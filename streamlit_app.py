@@ -98,11 +98,11 @@ fg_art_choices = art_choices[:-1]
 
 # Choose the fore and background art individually
 foreground_art = st.selectbox(
-    "Which art do you want in the front?",
+    "選擇角色動作",
     fg_art_choices
 )
 background_art = st.selectbox(
-    "Which art do you want in the back?",
+    "選擇背景動作",
     art_choices
 )
 
