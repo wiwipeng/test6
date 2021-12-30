@@ -160,7 +160,7 @@ st.image(wallpaper_name, use_column_width=True)
 
 # Encode the image to bytes so a download link can be created
 encoded_img = utils.encode_img_to_b64(wallpaper_name)
-href = f'<a href="data:image/png;base64,{encoded_img}" download="{wallpaper_name}">Download the graphic</a>'
+href = f'<a href="data:image/png;base64,{encoded_img}" download="{wallpaper_name}">下載桌布</a>'
 # Create the download link
 st.markdown(href, unsafe_allow_html=True)
 
