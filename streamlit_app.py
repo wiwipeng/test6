@@ -49,7 +49,7 @@ skins_data = load_skins_json()
 
 # Dropdown to filter by operator rank
 operator_rank = st.selectbox(
-    "Choose the operator rank選擇角色",
+    "選擇角色等級",
     ("6-star", "5-star", "4-star", "3-star", "2-star", "1-star")
 )
 
@@ -67,7 +67,7 @@ filtered_data = main_data.query(f"num_stars == {operator_rank_int}")
 
 # Dropdown to choose the operator
 operator_chosen = st.selectbox(
-    "Choose your operator",
+    "選擇角色",
     filtered_data["name"].to_numpy()
 )
 
