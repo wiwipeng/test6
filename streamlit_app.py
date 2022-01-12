@@ -105,7 +105,7 @@ background_art = st.selectbox(
     "選擇背景動作",
     art_choices
 )
-long=st.write()
+long=st.number_input('長')
 # Upload a custom background image for the wallpaper
 custom_bg_img = st.file_uploader(
     "您可以上傳自定義背景圖片以替換 640x1280 尺寸的默認黑色圖片", 
