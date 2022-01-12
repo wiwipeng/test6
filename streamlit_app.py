@@ -115,7 +115,7 @@ DIMENSIONS = (1920, 1080)
 Mobile =st.checkbox('更換背景大小到640x1280(default Desktop format 1920 * 1080)')
 if Mobile:
     DIMENSIONS = (640, 1280)
- #   DIMENSIONS = (640, long)
+
 
 
 
