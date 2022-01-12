@@ -105,7 +105,7 @@ background_art = st.selectbox(
     "選擇背景動作",
     art_choices
 )
-long=st.number_input('長')
+#long = st.number_input('長')
 # Upload a custom background image for the wallpaper
 custom_bg_img = st.file_uploader(
     "您可以上傳自定義背景圖片以替換 640x1280 尺寸的默認黑色圖片", 
@@ -114,8 +114,8 @@ custom_bg_img = st.file_uploader(
 DIMENSIONS = (1920, 1080)
 Mobile =st.checkbox('更換背景大小(default Desktop format 1920 * 1080)')
 if Mobile:
-  #  DIMENSIONS = (640, 1280)
-    DIMENSIONS = (640, long)
+    DIMENSIONS = (640, 1280)
+ #   DIMENSIONS = (640, long)
 
 
 
